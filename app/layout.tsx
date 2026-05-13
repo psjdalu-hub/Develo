@@ -36,7 +36,7 @@ export default function RootLayout({
         <Navbar /> 
 
         {/* 3. The page content grows to fill space */}
-        <main className="flex-grow bg-slate-50">
+        <main className="grow bg-slate-50">
           {children}
         </main>
         
